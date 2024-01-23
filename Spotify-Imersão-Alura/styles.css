@@ -1,0 +1,149 @@
+body {
+    background-color: #000;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    width: 300px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 25px 16px 10px 16px;
+}
+
+.library a {
+    padding: 0 0 0 15px;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.library a span{
+    padding: 0 0 0 3px;
+}
+
+.library .fa-plus{
+    padding-left: 35%;
+}
+
+.playlist{
+    background-color: #242424;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px 16px 10px 16px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+}
+
+.playlist h3{
+    padding-bottom: 10px ;    
+}
+
+.playlist p{
+    padding-bottom: 10px ;  
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.playlist button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+}
+
+.podcast{
+    background-color: #242424;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px 16px 10px 16px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+}
+
+.podcast h3{
+    padding-bottom: 10px ;    
+}
+
+.podcast p{
+    padding-bottom: 10px ;  
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.podcast button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+}
+
+.language {
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+    border-width:1px;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    margin: 20px 0 0 15px;
+}
+
